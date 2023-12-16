@@ -1,0 +1,93 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.birthday {
+    background-color: rgb(188, 187, 187);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+
+    /*  give df and jcc and aic to parent component , it's child will be in center */
+
+}
+
+.card {
+    background-color: white;
+    max-width: 30rem;
+    width: 70%;
+    padding: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* //x, y,blur color */
+    border-radius: 10px;
+    flex-direction: column;
+
+}
+
+.card-content {
+    padding: .3rem;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+    border-radius: 12px;
+    margin: 1rem;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    gap: 2rem;
+}
+
+.content {
+
+    gap: 2rem;
+
+}
+
+.content>h3 {
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content>p {
+    font-size: small;
+
+}
+
+.avatar {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.icon {
+
+    border: none;
+    color: red;
+    background: none;
+    font-size: x-large;
+    height: 5.5rem;
+    width: 5.5rem;
+    cursor: pointer;
+    transition: 0s;
+
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.8);
+
+
+}
+
+.icon:active {
+    transform: scale(.15);
+
+
+}

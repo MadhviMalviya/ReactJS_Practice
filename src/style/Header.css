@@ -1,0 +1,24 @@
+
+.header>h1{
+    color: green;
+}
+
+.header>button{
+    border: none; 
+    box-shadow: 2px 2px 5px rgba(0, 0 ,0,.5);    
+    /* y x  blur 4:color rgba(000, 4:opecity)  */
+    transition: 1s;
+    color: white;
+    background-color: goldenrod;
+    margin: 1rem;
+    font-weight: bolder;
+
+    padding: 1rem;
+    border-radius: 12px;
+  }
+
+  .counter{
+   margin: 3rem;
+   text-align: center;
+   
+  }
